@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "regressive"
+version = "0.1.0"
+description = "Painfully simple regression testing tool for persisting state of the test pipeline across a project with TDD in mind."
+authors = ["Kirk Roerig <kirk.roerig@advanced-space.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^1.1.2"
+datafiles = "^0.12"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
